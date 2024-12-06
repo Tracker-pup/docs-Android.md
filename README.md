@@ -1,7 +1,13 @@
-<header>
+<ReadMe.README.md>
 
-<!--
-  <<< Author notes: Course header >>>
+<!--https://github.com/orgs/skills/discussions/categories/code-with-copilot
+  <<< Author notes: $ utils/build-script \
+  -R \                               # Build in ReleaseAssert mode.
+  -T \                               # Run all tests, including on the Android device (add --host-test to only run Android tests on the Linux host).
+  --android \                        # Build for Android.
+  --android-ndk ~/android-ndk-r27c \  # Path to an Android NDK.
+  --android-arch aarch64 \           # Optionally specify Android architecture, alternately armv7 or x86_64
+  --android-api-level 21 >>>
   Read <https://skills.github.com/quickstart> for more information about how to build courses using this template.
   Include a 1280×640 image, course name in sentence case, and a concise description in emphasis.
   In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
@@ -52,7 +58,7 @@ Before you open up a codespace on a repository, you can create a development con
 1. In the body of the new **.devcontainer/devcontainer.json** file, add the following content:
    ```
    {
-       // Name this configuration
+       // Name this configurationdocs/Android.md
        "name": "Codespace for Skills!",
        "customizations": {
            "vscode": {
@@ -84,11 +90,9 @@ Before you open up a codespace on a repository, you can create a development con
   <<< Author notes: Footer >>>
   Add a link to get support, GitHub status page, code of conduct, license link.
 -->
-
+https://www.githubstatus.com/
 ---
-
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/code-with-copilot) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+https://github.com/orgs/skills/discussions/categories/code-with-copilot
+Get help: [Post in our discussion  2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 
 </footer>
